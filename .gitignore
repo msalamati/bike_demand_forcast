@@ -1,0 +1,53 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+*.env
+
+# Package/build
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+profile_default/
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs & temp
+logs/
+*.log
+.tmp/
+.cache/
+wandb/
+
+# Data & artifacts (adjust to your project)
+results/
+data/
+datasets/
+checkpoints/
+outputs/
+models/
+*.ckpt
+*.pt
+*.pth
+
+# Large files / experiments
+*.png
+*.jpg
+*.pdf

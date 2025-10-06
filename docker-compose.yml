@@ -1,0 +1,17 @@
+services:
+  lab:
+    build: .
+    image: bike-sharing:latest
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/app
+    command: ["jupyter", "notebook", "--NotebookApp.token=", "--NotebookApp.password=", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
+
+  batch:
+    image: bike-sharing:latest
+    depends_on:
+      - lab
+    volumes:
+      - ./:/app
+    command: ["papermill", "SIXT_Bike_Sharing_Solution.ipynb", "out.ipynb"]

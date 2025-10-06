@@ -1,0 +1,17 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+env/
+venv/
+
+# OS / editor junk
+.DS_Store
+*.swp
+*.swo
