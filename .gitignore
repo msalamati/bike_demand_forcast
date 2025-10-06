@@ -51,3 +51,14 @@ models/
 *.png
 *.jpg
 *.pdf
+
+# Specific files
+Dockerfile
+README_DOCKER.md
+Readme.txt
+SIXT_Bike_Sharing_Solution.ipynb
+Salamati_submission.zip
+docker-compose.yml
+dockerignore
+pred_last30.csv
+
